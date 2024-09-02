@@ -1,0 +1,65 @@
+.list {
+  display: flex;
+  margin: 30px auto;
+  max-width: 500px;
+  margin-bottom: 0;
+
+}
+
+
+.sno1 {
+  display: grid;
+  grid-auto-flow: row;
+  background-color: red;
+  border: 1px solid;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100px;
+}
+.sno1 p {
+  gap: 0;
+}
+
+.try {
+  display: flex;
+  max-width: 300px;
+  overflow-x: auto;
+  background-color: green;
+}
+
+.sno3 {
+  width: 100px;
+  flex-shrink: 0;
+  display: grid;
+  background-color: orange;
+  justify-content: center;
+  border: 1px solid;
+  border-left: 0px;
+}
+.sno {
+  display: grid;
+  align-items: baseline;
+  justify-content: center;
+  background-color: green;
+  width: 80px;
+}
+.sno .remove {
+  background-color: red;
+  padding: 3px 5px;
+  border-radius: 50%;
+  color: darkgrey;
+  border: none;
+  outline: none;
+  animation: remove 2s ease-in infinite forwards;
+  cursor: pointer;
+}
+
+@keyframes remove {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}

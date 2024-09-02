@@ -1,0 +1,28 @@
+.middle{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  
+}
+.lms,.hms,.boring,.return,.bigiron{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 10px;
+} 
+
+
+
+.middle div input {
+    padding: 10px;
+    margin: 5px 0px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    outline-color: aqua;
+    box-shadow: 0.2px 0.2px 0.03px  0.02px gray ;
+}
+.eq,.va{
+    align-self: self-end;
+}
